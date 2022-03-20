@@ -60,9 +60,7 @@ path: /home/devin/sambashare/LotteryGame/scripts/../test/LotAddress.json
 note that I purposedly to lower the difficulty to 1, too easy too guess. but a good choice for test
 
 10) end this round of gambling and check the winner. the first two player very luck
-
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/93688560/159165617-60a7b4a7-378d-42c7-9d52-2a868e902506.png">
-
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/93688560/159165699-96849aa7-8160-4b85-bac5-5f5be07bacec.png">
 
 11) luanch a second round and stake more
@@ -83,7 +81,7 @@ note that I purposedly to lower the difficulty to 1, too easy too guess. but a g
    <img width="505" alt="image" src="https://user-images.githubusercontent.com/93688560/159166246-56907649-c6ab-4dd1-aea4-dc8802eb7816.png">
    <img width="488" alt="image" src="https://user-images.githubusercontent.com/93688560/159166263-ed98bd3a-a1fe-46d5-b2bb-88640c7b5d03.png">
    
-  15)the owner or runner refund part of commissions,that is 100 Dai,see
+ 15)the owner or runner refund part of commissions,that is 100 Dai,see
   <img width="539" alt="image" src="https://user-images.githubusercontent.com/93688560/159166360-25227963-c3cf-4ce2-a9c9-d04232d203eb.png">
 
 
