@@ -48,6 +48,7 @@ path: /home/devin/sambashare/LotteryGame/scripts/../test/LotAddress.json
  <img width="635" alt="image" src="https://user-images.githubusercontent.com/93688560/159165016-8b466443-840c-4f5d-a6c0-6e8197db0a30.png">
 
 7)luanch a new round of gambling
+
 <img width="665" alt="image" src="https://user-images.githubusercontent.com/93688560/159165186-4ae159cf-1c41-469e-a041-f56431a25083.png">
 
 8) stake
