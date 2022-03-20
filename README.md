@@ -73,16 +73,19 @@ note that I purposedly to lower the difficulty to 1, too easy too guess. but a g
  <img width="484" alt="image" src="https://user-images.githubusercontent.com/93688560/159165893-2bf0b4c4-3465-48d5-8c1f-c0eea961ce56.png">
  
  13）end at last and see,first round, 1st and 2nd player winned. second round, 3rd and 4th player winned.bunus number is 1 in round 1, and 0 in round 2.
+ 
  <img width="443" alt="image" src="https://user-images.githubusercontent.com/93688560/159165963-9cd19f0d-7b16-4cfc-96f7-cfe1bf8293b2.png">
  <img width="485" alt="image" src="https://user-images.githubusercontent.com/93688560/159166011-1c7978ee-a110-4686-bea1-95ee398af57e.png">
  <img width="496" alt="image" src="https://user-images.githubusercontent.com/93688560/159166019-ea5766dd-098a-455f-ae4e-01205fe1d60c.png">
  
  14)the 2 winners collect the fund
+ 
    <img width="404" alt="image" src="https://user-images.githubusercontent.com/93688560/159166213-5fc8d7d1-21c0-4a81-a6fd-6e985d03cabb.png">
    <img width="505" alt="image" src="https://user-images.githubusercontent.com/93688560/159166246-56907649-c6ab-4dd1-aea4-dc8802eb7816.png">
    <img width="488" alt="image" src="https://user-images.githubusercontent.com/93688560/159166263-ed98bd3a-a1fe-46d5-b2bb-88640c7b5d03.png">
    
  15)the owner or runner refund part of commissions,that is 100 Dai,see
+ 
   <img width="539" alt="image" src="https://user-images.githubusercontent.com/93688560/159166360-25227963-c3cf-4ce2-a9c9-d04232d203eb.png">
 
 
