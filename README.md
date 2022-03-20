@@ -1,6 +1,12 @@
 # lot_contract
 A number puzzle lottery game,settled by Dai ERC20 token
 
+在Hardhat平台实现，工程包含solidity合约和测试部署用js脚本。
+The project implementation based on hardhat platform， include 
+1) main solidity contract Lot.solidity;
+2) accompanying contract such as Dai\Ownable\context;
+3) test and deployment js; 
+
 用solidity语言实现一个彩票系统的智能合约，使MetaMask钱包部署到Ropsten测试测试网，至少需
 包含如下功能：
 1. 具备管理员和参与者两种身份，管理员发起彩票活动，并设置彩票开奖时间，参与者在彩票发起⾄
