@@ -24,3 +24,20 @@ Contains the following functions:
 3. The lottery winning numbers are composed of numbers between 0-9999（configurable）, the winning numbers are randomly generated, and the winners will divide the lottery equally according to the bet number of the corresponding numbers in Ticket pool, the platform charges a 20%（configurable） handling fee;
 4. The administrator can initiate a lottery activity multiple times, but only one lottery activity is supported at the same time;
 5. It is necessary to provide an interface to query the winning numbers and winners of previous lottery tickets;
+
+
+Basic Test Procedure:
+1) compiling: npx hardhat compile
+2) start a node service : npx hardhat node
+3) <img width="484" alt="image" src="https://user-images.githubusercontent.com/93688560/159164726-199a4ecb-476f-4876-947d-acdde9f87ff4.png">
+
+4) Deploy npx hardhat run path/deploydai.js --network localhost  npx hardhat run path/deploylot.js  --network localhost
+    -----------Dai Deployment-----------------
+Dai ERC20 Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+path: /home/devin/sambashare/LotteryGame/scripts/../test/DaiAddress.json
+
+-----------LotteryShop Deployment-----------------
+Lot Contract Address: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+path: /home/devin/sambashare/LotteryGame/scripts/../test/LotAddress.json
+
+5)  
