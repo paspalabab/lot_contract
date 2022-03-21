@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 /**
  * Author:    Devin Nie (Nie Xudong)
- * Created:   20.03.2022
+ * Created:   21.03.2022
  **/
 
 pragma solidity ^0.8.0;
@@ -72,12 +72,22 @@ abstract contract LotNote is Ownable {
         uint80 para_ratio_commission_numerator,
         uint80 para_ratio_commission_denominator  
     ) internal{
+        uint256 _round_prev = GameRound();
         TGameRoundRec memory _game_round_rec = TGameRoundRec(0,0,para_expiration,true
                                                 ,para_difficulty,0xffff,para_StakePrice,
                                                 para_ratio_commission_numerator
                                                 ,para_ratio_commission_denominator);
         gameRoundlist.push(_game_round_rec);
         assert(IfNowInGame() == true);
+        assert(GameRound() == _round_prev+1);
+        if(_round_prev == 0) return;
+
+        //accumulate all unwinned bonus to this round
+        if(getTotalStakeAmount(_round_prev, CheckBonusNumber(_round_prev)) == 0 ){ 
+            //have no stake on the bingo number
+            gameRoundlist[_round_prev].total_bonus = gameRoundlist[_round_prev-1].total_bonus;
+            gameRoundlist[_round_prev-1].total_bonus = 0;
+        }
     }
 
     //psudo-random num generator
@@ -361,10 +371,10 @@ contract Lot is LotNote {
 
         //check the client's finance condition
         uint256 _dai_needed = para_chips * StakePrice();
-        console.log("balance:  ", IERC20(address_Of_the_Dai).balanceOf(_msgSender()));
-        console.log("allowance approver:  ", _msgSender());//test
-        console.log("allowance spender:  ", address(this));//test
-        console.log("allowance:  ", IERC20(address_Of_the_Dai).allowance(_msgSender(),address(this)));
+        //console.log("balance:  ", IERC20(address_Of_the_Dai).balanceOf(_msgSender()));
+        //console.log("allowance approver:  ", _msgSender());//test
+        //console.log("allowance spender:  ", address(this));//test
+        //console.log("allowance:  ", IERC20(address_Of_the_Dai).allowance(_msgSender(),address(this)));
         require((IERC20(address_Of_the_Dai).balanceOf(_msgSender())) >= _dai_needed,"insufficient balance to stake");
         require((IERC20(address_Of_the_Dai).allowance(_msgSender(),address(this))) >= _dai_needed,"insufficient allownce to stake");
 
