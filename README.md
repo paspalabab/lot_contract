@@ -88,14 +88,10 @@ note that I purposedly to lower the difficulty to 1, too easy too guess. but a g
  15)the owner or runner refund part of commissions,that is 100 Dai,see
  
   <img width="539" alt="image" src="https://user-images.githubusercontent.com/93688560/159166360-25227963-c3cf-4ce2-a9c9-d04232d203eb.png">
+  
+ 16) if no one win this round,the bonus will shift to next round automatically.
+ 
+   ![截图](https://user-images.githubusercontent.com/93688560/159195031-72da7eb1-8ea4-4c2b-9b20-79fe67ca2982.png)
 
-
-
-
-
-
-
-
-
-
+   ![截图](https://user-images.githubusercontent.com/93688560/159195062-932272d9-cff6-4c26-a3d1-d77d17fd8136.png)
 
